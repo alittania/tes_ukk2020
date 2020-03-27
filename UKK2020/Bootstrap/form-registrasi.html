@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TES UKK</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+</head>
+<body>
+    <nav class="navbar navbar-default"> 
+        <div class="container-fluid"> 
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">Aplikasi Pembayaran SPP</a>
+            </div>
+                <ul class="nav navbar-nav"> 
+                    <li class="active"><a href="form-registrasi.html">Home</a></li>
+                    <li> <a href="datasiswa.html">Data Siswa</a></li>
+                    <li> <a href="pembayaran.html">Pembayaran</a></li>
+                    <li> <a href="laporan.html">Laporan</a></li>
+                    <li> <a href="login.html">Logout</a></li>
+                </ul>
+        </div>
+    </nav>
+
+    <div class="row-mb-5">
+        <div class="col-md-12">
+            <div class="card">
+                <div class="card-header text-center">
+                    REGISTRASI SISWA
+                </div>
+                <div class="card-body">
+                    <form action="" method="post">
+                        <div class="form-group">
+                            NIK<input type="number" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            Nama Lengkap<input type="text" class="form-control" required>
+                        </div>
+                        <form>
+                            <p>Jenis Kelamin</p>
+                            <input type="radio" id="male" name="gender" value="male">
+                            <label for="male">Laki-laki</label><br>
+                            <input type="radio" id="female" name="gender" value="female">
+                            <label for="female">Perempuan</label><br>
+                          </form> 
+                        <div class="form-group">
+                            Kelas<input type="text" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            Alamat<input type="text" class="form-control" required>
+                        </div>
+                        <p>Foto Siswa</p>
+                        <input type="file" name="berkas"/>
+                        <br>
+                        <button type="submit" class="btn btn-primary">Insert</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<footer>
+    <div class="footer-card text-center">
+        <p>@2020 - Alittania Rahma</p>
+    </div>
+</footer>
+
+</body>
+</html>

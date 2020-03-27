@@ -1,0 +1,38 @@
+# Table of Contents
+### Persiapan dan Setup Dasar
+1. [ ] Intro : UKK [PHP]
+	- Browser
+	- Text Editor
+	- Xampp
+	- Basis data
+2. [ ] User Interface [PHP]
+	- form login
+	- form logout
+	- CRUD data siswa
+	- CRUD data petugas
+	- CRUD data kelas
+	- CRUD data spp
+	- Entri transaksi pembayaran
+	- Riwayat pembayaran
+3. [ ] Routing URL + Konfigurasi DB [PHP]
+
+### Fitur Inti
+4. [ ] Login + Logout [PHP]
+5. [ ] CRUD Data Siswa + Petugas + Kelas [PHP]
+6. [ ] Menulis Entri Transaksi Pembayaran [PHP]
+7. [ ] Melihat Riwayat Pembayaran [PHP]
+8. [ ] Generate Laporan
+
+### Alur Aplikasi
+Administrator :
+- Login lalu diarahkan ke data siswa (registrasi)
+- samping kiri ada nav, isinya data siswa, datatable, pembayaran
+- search siswa dengan button detail
+- jika diklik detail, akan ke halaman siswa dgn biodata dan data pembayaran yg Lunas
+- generate laporan seperti SS
+Petugas :
+- Login langsung ke datatable siswa dgn button edit/hapus
+- search siswa dengan button detail dan bayar
+- verifikasi & validasi (button L/BL pada halaman bayar)
+Siswa :
+- Login langsung ke detail 
